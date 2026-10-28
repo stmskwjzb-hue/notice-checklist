@@ -1,6 +1,6 @@
 # OpenAI OSS 申请准备
 
-核对日期：**2026-10-28**。公开仓库：[stmskwjzb-hue/notice-checklist](https://github.com/stmskwjzb-hue/notice-checklist)。申请尚未提交，也未获得批准。提交前须再次核对官方页面，并由真实申请人检查全部内容。
+核对日期：**2026-10-28**。公开仓库：[stmskwjzb-hue/notice-checklist](https://github.com/stmskwjzb-hue/notice-checklist)。申请已由用户暂缓，尚未提交，也未获得批准。若以后继续申请，提交前须再次核对官方页面，并由真实申请人检查全部内容。
 
 ## 官方条件与本项目现状
 
