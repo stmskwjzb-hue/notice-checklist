@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C11-T1",
+      "action": {
+        "text": "完成校园摄影赛报名；附件信息缺失",
+        "evidence": [
+          {
+            "source_id": "C11-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "校园摄影赛报名请在2026年11月10日17:00前完成。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "2026年11月10日17:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C11-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月10日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [],
+      "questions": [
+        "正文说明材料、报名入口、文件格式见附件；附件不可读，这三项均待确认，不能补造材料或入口。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": [
+    "C11-S2《附件：报名说明.pdf（扫描模糊，当前无法辨认）》为空文本、无法辨认。请提供可读附件或逐字文字；所需材料、报名入口、文件格式均缺失。"
+  ]
+}

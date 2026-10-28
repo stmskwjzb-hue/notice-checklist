@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C03-T1",
+      "action": {
+        "text": "提交验收材料；截止日期存在冲突",
+        "evidence": [
+          {
+            "source_id": "C03-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "验收材料请于2026年11月5日17:00前上传到项目资料库"
+          },
+          {
+            "source_id": "C03-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "验收材料请于2026年11月6日17:00前上传到项目资料库"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "甲：2026年11月5日17:00；乙：2026年11月6日17:00；未确定哪条生效",
+        "evidence": [
+          {
+            "source_id": "C03-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月5日17:00前"
+          },
+          {
+            "source_id": "C03-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月6日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "盖章验收表",
+          "evidence": [
+            {
+              "source_id": "C03-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "盖章验收表"
+            },
+            {
+              "source_id": "C03-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "盖章验收表"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "上传到项目资料库",
+        "evidence": [
+          {
+            "source_id": "C03-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "上传到项目资料库"
+          },
+          {
+            "source_id": "C03-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "上传到项目资料库"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "请项目组确认有效截止为11月5日还是11月6日；两条均无明确更正关系。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}

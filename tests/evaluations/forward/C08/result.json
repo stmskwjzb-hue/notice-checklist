@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C08-T1",
+      "action": {
+        "text": "第1步：到社区前台填写报名表",
+        "evidence": [
+          {
+            "source_id": "C08-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "有意参加的居民须在2026年11月3日18:00前，到社区前台填写报名表。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "报名截止：2026年11月3日18:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C08-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月3日18:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "报名表",
+          "evidence": [
+            {
+              "source_id": "C08-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "报名表"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "社区前台现场填写报名表",
+        "evidence": [
+          {
+            "source_id": "C08-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "到社区前台填写报名表"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    },
+    {
+      "id": "C08-T2",
+      "action": {
+        "text": "第2步：2026年11月8日14:00在社区二楼参加急救讲座（活动时间，非报名截止）",
+        "evidence": [
+          {
+            "source_id": "C08-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "急救讲座于2026年11月8日14:00在社区二楼举行。"
+          }
+        ]
+      },
+      "status": "active",
+      "deadline": null,
+      "materials": [
+        {
+          "text": "携带报名回执",
+          "evidence": [
+            {
+              "source_id": "C08-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "参加时请携带报名回执。"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "text": "先完成报名",
+          "evidence": [
+            {
+              "source_id": "C08-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "有意参加的居民须在2026年11月3日18:00前，到社区前台填写报名表。"
+            }
+          ]
+        }
+      ],
+      "submission": null,
+      "changes": [],
+      "questions": [
+        "讲座钟点未注明时区；请与报名时间一并确认。"
+      ]
+    }
+  ],
+  "questions": []
+}

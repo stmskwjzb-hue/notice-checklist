@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C06-T1",
+      "action": {
+        "text": "全班同学填写班级信息表；逐字转发合并为一项",
+        "evidence": [
+          {
+            "source_id": "C06-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "全班同学在2026年10月30日20:00前填写班级信息表"
+          },
+          {
+            "source_id": "C06-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "全班同学在2026年10月30日20:00前填写班级信息表"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "2026年10月30日20:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C06-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年10月30日20:00前"
+          },
+          {
+            "source_id": "C06-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年10月30日20:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "班级信息表",
+          "evidence": [
+            {
+              "source_id": "C06-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "班级信息表"
+            },
+            {
+              "source_id": "C06-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "班级信息表"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "班级群置顶的在线表单",
+        "evidence": [
+          {
+            "source_id": "C06-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "提交入口为班级群置顶的在线表单"
+          },
+          {
+            "source_id": "C06-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "提交入口为班级群置顶的在线表单"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}

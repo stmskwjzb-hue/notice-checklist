@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C14-T1",
+      "action": {
+        "text": "读书会是否恢复举办待确认；原活动为2026年11月2日19:00（活动时间，非提交截止）",
+        "evidence": [
+          {
+            "source_id": "C14-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "读书会于2026年11月2日19:00在活动室A举行"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": null,
+      "materials": [
+        {
+          "text": "若确认恢复，原通知要求参加者带一本书",
+          "evidence": [
+            {
+              "source_id": "C14-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "参加者带一本书"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [
+        {
+          "text": "10月27日明确取消，要求不用到场",
+          "evidence": [
+            {
+              "source_id": "C14-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "原定11月2日的读书会取消，请不用到场。"
+            }
+          ]
+        },
+        {
+          "text": "10月28日仅称地点改为活动室B，未明确说明撤销取消",
+          "evidence": [
+            {
+              "source_id": "C14-S3",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "11月2日读书会地点改为活动室B。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "请组织者明确：读书会是否恢复举办、是否仍在11月2日19:00于活动室B举行；仅换地点不足以明确撤销此前取消。未确认前不把到场当成已确定待办。",
+        "若恢复，活动钟点按哪个时区理解？"
+      ]
+    }
+  ],
+  "questions": []
+}

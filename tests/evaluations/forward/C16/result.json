@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C16-T1",
+      "action": {
+        "text": "第1步：先通过安全测验（用户尚未通过）",
+        "evidence": [
+          {
+            "source_id": "C16-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "尚未通过测验的同学须先通过测验，再申请预约。"
+          }
+        ]
+      },
+      "status": "active",
+      "deadline": null,
+      "materials": [],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [],
+      "questions": [
+        "通知未单列安全测验的报名方式、时间或地点；请向实验室确认如何及时参加。"
+      ]
+    },
+    {
+      "id": "C16-T2",
+      "action": {
+        "text": "第2步：通过测验后，申请设备预约",
+        "evidence": [
+          {
+            "source_id": "C16-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "已通过安全测验的同学，可在本邮件发送日的次日17:00前，将签字的设备预约单交到实验室302。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "本邮件发送日的次日17:00前；按用户提供的邮件标签（发送于2026年10月28日09:00），对应2026年10月29日17:00；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C16-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "本邮件发送日的次日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "签字的设备预约单",
+          "evidence": [
+            {
+              "source_id": "C16-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "签字的设备预约单"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "text": "先通过安全测验，再申请预约",
+          "evidence": [
+            {
+              "source_id": "C16-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "尚未通过测验的同学须先通过测验，再申请预约。"
+            }
+          ]
+        }
+      ],
+      "submission": {
+        "text": "将签字的设备预约单交到实验室302",
+        "evidence": [
+          {
+            "source_id": "C16-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "将签字的设备预约单交到实验室302"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。",
+        "若无法在本次预约截止前通过测验，请实验室确认下一次预约安排；通知没有承诺延期。"
+      ]
+    }
+  ],
+  "questions": []
+}

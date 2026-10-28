@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C05-T1",
+      "action": {
+        "text": "实习报名：发送个人简历",
+        "evidence": [
+          {
+            "source_id": "C05-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "报名同学请把个人简历发到intern@example.org"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "11月2日17:00截止；年份未标明",
+        "evidence": [
+          {
+            "source_id": "C05-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "11月2日17:00截止"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "个人简历",
+          "evidence": [
+            {
+              "source_id": "C05-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "个人简历"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "发到 intern@example.org",
+        "evidence": [
+          {
+            "source_id": "C05-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "发到intern@example.org"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "请确认活动年份及该旧海报是否仍有效。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}

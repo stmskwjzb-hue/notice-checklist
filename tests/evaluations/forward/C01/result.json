@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C01-T1",
+      "action": {
+        "text": "申请助学金：提交申请材料",
+        "evidence": [
+          {
+            "source_id": "C01-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "申请助学金的同学"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "现行截止：2026年11月3日17:00；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C01-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "截止时间改为2026年11月3日17:00"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "申请表",
+          "evidence": [
+            {
+              "source_id": "C01-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "申请表"
+            }
+          ]
+        },
+        {
+          "text": "身份证复印件",
+          "evidence": [
+            {
+              "source_id": "C01-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "身份证复印件"
+            }
+          ]
+        },
+        {
+          "text": "成绩单",
+          "evidence": [
+            {
+              "source_id": "C01-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "成绩单"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "发送至 aid@example.org",
+        "evidence": [
+          {
+            "source_id": "C01-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "发送至本通知写明的收件邮箱：aid@example.org"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "text": "截止由2026年11月1日17:00延至2026年11月3日17:00；材料和收件邮箱保留",
+          "evidence": [
+            {
+              "source_id": "C01-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "2026年11月1日17:00前，将申请表、身份证复印件、成绩单发送至本通知写明的收件邮箱：aid@example.org"
+            },
+            {
+              "source_id": "C01-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "截止时间改为2026年11月3日17:00，其余要求不变。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,47 @@
+C01: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C02: first checker exit 0; 2 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C03: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C04: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C05: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C06: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C07: first checker exit 0; 2 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C08: first checker exit 0; 2 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C09: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C10: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C11: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C12: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C13: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C14: first checker exit 0; 1 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C15: first checker exit 0; 2 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}
+
+C16: first checker exit 0; 2 tasks; no fixes.
+{"valid": true, "semantic_review_required": true}

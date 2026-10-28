@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C13-T1",
+      "action": {
+        "text": "申请课程替代：提交申请材料",
+        "evidence": [
+          {
+            "source_id": "C13-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "申请课程替代的同学须在2026年11月6日17:00前提交课程替代申请表及原课程成绩单。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "2026年11月6日17:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C13-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月6日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "课程替代申请表",
+          "evidence": [
+            {
+              "source_id": "C13-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "课程替代申请表"
+            }
+          ]
+        },
+        {
+          "text": "原课程成绩单",
+          "evidence": [
+            {
+              "source_id": "C13-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "原课程成绩单"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [],
+      "questions": [
+        "通知没有说明接收人、提交地点或线上入口；请教务确认提交方式及纸质/电子要求。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}

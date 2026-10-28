@@ -1,0 +1,242 @@
+test_accepts_a_cited_partial_amendment (test_check_result.CheckerTests.test_accepts_a_cited_partial_amendment) ... FAIL
+test_accepts_a_date_without_inventing_a_clock_time (test_check_result.CheckerTests.test_accepts_a_date_without_inventing_a_clock_time) ... FAIL
+test_boolean_is_not_a_schema_version (test_check_result.CheckerTests.test_boolean_is_not_a_schema_version) ... FAIL
+test_cancelled_tasks_require_a_cited_change (test_check_result.CheckerTests.test_cancelled_tasks_require_a_cited_change) ... FAIL
+test_malformed_containers_produce_diagnostics_not_tracebacks (test_check_result.CheckerTests.test_malformed_containers_produce_diagnostics_not_tracebacks) ... FAIL
+test_missing_fields_and_misspellings_are_not_silently_dropped (test_check_result.CheckerTests.test_missing_fields_and_misspellings_are_not_silently_dropped) ... FAIL
+test_no_action_notice_can_have_an_empty_checklist (test_check_result.CheckerTests.test_no_action_notice_can_have_an_empty_checklist) ... FAIL
+test_rejects_a_missing_evidence_location (test_check_result.CheckerTests.test_rejects_a_missing_evidence_location) ... FAIL
+test_rejects_a_quote_missing_from_its_source (test_check_result.CheckerTests.test_rejects_a_quote_missing_from_its_source) ... FAIL
+test_rejects_a_timestamp_without_timezone (test_check_result.CheckerTests.test_rejects_a_timestamp_without_timezone) ... FAIL
+test_rejects_duplicate_source_ids (test_check_result.CheckerTests.test_rejects_duplicate_source_ids) ... FAIL
+test_rejects_duplicate_task_ids (test_check_result.CheckerTests.test_rejects_duplicate_task_ids) ... FAIL
+test_rejects_facts_with_no_evidence (test_check_result.CheckerTests.test_rejects_facts_with_no_evidence) ... FAIL
+test_rejects_impossible_dates (test_check_result.CheckerTests.test_rejects_impossible_dates) ... FAIL
+test_rejects_unknown_source_id (test_check_result.CheckerTests.test_rejects_unknown_source_id) ... FAIL
+test_renderer_escapes_source_html_and_markdown (test_check_result.CheckerTests.test_renderer_escapes_source_html_and_markdown) ... FAIL
+test_renderer_keeps_cancelled_tasks_out_of_active_section (test_check_result.CheckerTests.test_renderer_keeps_cancelled_tasks_out_of_active_section) ... FAIL
+test_renderer_refuses_invalid_results (test_check_result.CheckerTests.test_renderer_refuses_invalid_results) ... FAIL
+test_unknown_status_is_rejected (test_check_result.CheckerTests.test_unknown_status_is_rejected) ... FAIL
+test_unreadable_source_requires_a_top_level_question (test_check_result.CheckerTests.test_unreadable_source_requires_a_top_level_question) ... FAIL
+test_unresolved_deadline_requires_visible_confirmation (test_check_result.CheckerTests.test_unresolved_deadline_requires_visible_confirmation) ... FAIL
+test_cli_emits_a_checked_report_and_honest_scope (test_check_result.CliTests.test_cli_emits_a_checked_report_and_honest_scope) ... FAIL
+test_cli_invalid_result_does_not_write_a_checklist (test_check_result.CliTests.test_cli_invalid_result_does_not_write_a_checklist) ... FAIL
+test_cli_preserves_an_existing_output (test_check_result.CliTests.test_cli_preserves_an_existing_output) ... FAIL
+test_cli_reports_malformed_json_without_a_traceback (test_check_result.CliTests.test_cli_reports_malformed_json_without_a_traceback) ... FAIL
+
+======================================================================
+FAIL: test_accepts_a_cited_partial_amendment (test_check_result.CheckerTests.test_accepts_a_cited_partial_amendment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_accepts_a_date_without_inventing_a_clock_time (test_check_result.CheckerTests.test_accepts_a_date_without_inventing_a_clock_time)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_boolean_is_not_a_schema_version (test_check_result.CheckerTests.test_boolean_is_not_a_schema_version)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_cancelled_tasks_require_a_cited_change (test_check_result.CheckerTests.test_cancelled_tasks_require_a_cited_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_malformed_containers_produce_diagnostics_not_tracebacks (test_check_result.CheckerTests.test_malformed_containers_produce_diagnostics_not_tracebacks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_missing_fields_and_misspellings_are_not_silently_dropped (test_check_result.CheckerTests.test_missing_fields_and_misspellings_are_not_silently_dropped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_no_action_notice_can_have_an_empty_checklist (test_check_result.CheckerTests.test_no_action_notice_can_have_an_empty_checklist)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_a_missing_evidence_location (test_check_result.CheckerTests.test_rejects_a_missing_evidence_location)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_a_quote_missing_from_its_source (test_check_result.CheckerTests.test_rejects_a_quote_missing_from_its_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_a_timestamp_without_timezone (test_check_result.CheckerTests.test_rejects_a_timestamp_without_timezone)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_duplicate_source_ids (test_check_result.CheckerTests.test_rejects_duplicate_source_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_duplicate_task_ids (test_check_result.CheckerTests.test_rejects_duplicate_task_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_facts_with_no_evidence (test_check_result.CheckerTests.test_rejects_facts_with_no_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_impossible_dates (test_check_result.CheckerTests.test_rejects_impossible_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_rejects_unknown_source_id (test_check_result.CheckerTests.test_rejects_unknown_source_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_renderer_escapes_source_html_and_markdown (test_check_result.CheckerTests.test_renderer_escapes_source_html_and_markdown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_renderer_keeps_cancelled_tasks_out_of_active_section (test_check_result.CheckerTests.test_renderer_keeps_cancelled_tasks_out_of_active_section)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_renderer_refuses_invalid_results (test_check_result.CheckerTests.test_renderer_refuses_invalid_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_unknown_status_is_rejected (test_check_result.CheckerTests.test_unknown_status_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_unreadable_source_requires_a_top_level_question (test_check_result.CheckerTests.test_unreadable_source_requires_a_top_level_question)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_unresolved_deadline_requires_visible_confirmation (test_check_result.CheckerTests.test_unresolved_deadline_requires_visible_confirmation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 36, in setUp
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_cli_emits_a_checked_report_and_honest_scope (test_check_result.CliTests.test_cli_emits_a_checked_report_and_honest_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 168, in test_cli_emits_a_checked_report_and_honest_scope
+    completed, content = self.run_case()
+                         ^^^^^^^^^^^^^^^
+  File "<project>\tests\test_check_result.py", line 151, in run_case
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_cli_invalid_result_does_not_write_a_checklist (test_check_result.CliTests.test_cli_invalid_result_does_not_write_a_checklist)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 176, in test_cli_invalid_result_does_not_write_a_checklist
+    completed, content = self.run_case(result=result)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>\tests\test_check_result.py", line 151, in run_case
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_cli_preserves_an_existing_output (test_check_result.CliTests.test_cli_preserves_an_existing_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 181, in test_cli_preserves_an_existing_output
+    completed, content = self.run_case(existing_output=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>\tests\test_check_result.py", line 151, in run_case
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+======================================================================
+FAIL: test_cli_reports_malformed_json_without_a_traceback (test_check_result.CliTests.test_cli_reports_malformed_json_without_a_traceback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>\tests\test_check_result.py", line 186, in test_cli_reports_malformed_json_without_a_traceback
+    completed, content = self.run_case(malformed=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>\tests\test_check_result.py", line 151, in run_case
+    self.assertTrue(SCRIPT.is_file(), "The checker has not been implemented yet")
+AssertionError: False is not true : The checker has not been implemented yet
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.004s
+
+FAILED (failures=25)

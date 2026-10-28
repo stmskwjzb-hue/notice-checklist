@@ -1,0 +1,215 @@
+{
+  "evaluation": "forward tool and format execution only",
+  "input_file": "tests/evaluations/forward-inputs.json",
+  "skill_checker": "skills/notice-checklist/scripts/check_result.py",
+  "python": "Python 3.12.14 (local bundled runtime)",
+  "cases": [
+    {
+      "id": "C01",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Clock-time UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C02",
+      "checker_exit_code": 0,
+      "task_count": 2,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Clock-time UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C03",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Controlling conflicting notice and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C04",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Original screenshot absent; message-date anchor and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C05",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Activity year, present validity and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C06",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Clock-time UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C07",
+      "checker_exit_code": 0,
+      "task_count": 2,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Roommate cohort not specified; clock-time UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C08",
+      "checker_exit_code": 0,
+      "task_count": 2,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Clock-time UTC offset not supplied; event time retained separately from deadline."
+      ]
+    },
+    {
+      "id": "C09",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "No original notice file; event time retained without UTC-offset normalization."
+      ]
+    },
+    {
+      "id": "C10",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Controlling document and UTC offset not supplied; no original PDFs inspected."
+      ]
+    },
+    {
+      "id": "C11",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Attachment unreadable; materials, entry point, file format and UTC offset unconfirmed."
+      ]
+    },
+    {
+      "id": "C12",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Clock-time UTC offset not supplied; embedded instruction was not executed."
+      ]
+    },
+    {
+      "id": "C13",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Submission destination/method and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C14",
+      "checker_exit_code": 0,
+      "task_count": 1,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Explicit event reinstatement and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C15",
+      "checker_exit_code": 0,
+      "task_count": 2,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Amendment target and UTC offset not supplied."
+      ]
+    },
+    {
+      "id": "C16",
+      "checker_exit_code": 0,
+      "task_count": 2,
+      "fixes": [],
+      "first_attempt_exit_code": 0,
+      "sources_snapshot_exact": true,
+      "markdown_created": true,
+      "untested_limits": [
+        "Relative-date anchor comes from supplied source label; UTC offset and test scheduling absent."
+      ]
+    }
+  ],
+  "untested_limits": [
+    "Structural success does not establish semantic entailment, completeness, source authority, OCR accuracy, location accuracy or authenticity.",
+    "Only supplied text/transcriptions were available; no original screenshots or PDFs were inspected.",
+    "No browsing, installations, calendar actions or messages were performed.",
+    "No baseline, expected-answer file, behavior cases, design document or rubric was read.",
+    "No production skill, script or documentation was edited."
+  ],
+  "totals": {
+    "cases": 16,
+    "checker_exit_0": 16,
+    "tasks": 21,
+    "first_attempt_failures": 0,
+    "fixes": 0
+  },
+  "artifact_verification": "All 16 exact source snapshots and 64 nonempty case artifacts verified after execution."
+}

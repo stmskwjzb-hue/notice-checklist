@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C02-T1",
+      "action": {
+        "text": "需续办门禁卡的员工：办理门禁卡续办",
+        "evidence": [
+          {
+            "source_id": "C02-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "需续办门禁卡的员工"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "续办截止：2026年11月4日17:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C02-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月4日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "续办表",
+          "evidence": [
+            {
+              "source_id": "C02-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "续办表"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "将续办表交到行政前台",
+        "evidence": [
+          {
+            "source_id": "C02-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "把续办表交到行政前台"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "text": "续办安排维持原通知",
+          "evidence": [
+            {
+              "source_id": "C02-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "门禁卡续办安排不变。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    },
+    {
+      "id": "C02-T2",
+      "action": {
+        "text": "已取消的证件照拍摄：原活动时间为2026年11月2日15:00，地点为一楼（活动时间，非提交截止）",
+        "evidence": [
+          {
+            "source_id": "C02-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月2日15:00到一楼拍证件照"
+          }
+        ]
+      },
+      "status": "cancelled",
+      "deadline": null,
+      "materials": [
+        {
+          "text": "原需携带工牌；随该活动取消，无须为该活动准备",
+          "evidence": [
+            {
+              "source_id": "C02-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "携带工牌"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [
+        {
+          "text": "11月2日的证件照拍摄取消",
+          "evidence": [
+            {
+              "source_id": "C02-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "11月2日的证件照拍摄取消。"
+            }
+          ]
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C04-T1",
+      "action": {
+        "text": "参加研学活动的同学：交回执",
+        "evidence": [
+          {
+            "source_id": "C04-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "请参加研学活动的同学在本周五18:00前，将家长签字的回执交给班主任。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "本周五18:00前；原消息日期未提供，不能确定年月日",
+        "evidence": [
+          {
+            "source_id": "C04-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "本周五18:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "家长签字的回执",
+          "evidence": [
+            {
+              "source_id": "C04-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "家长签字的回执"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "text": "回执须经家长签字",
+          "evidence": [
+            {
+              "source_id": "C04-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "家长签字的回执"
+            }
+          ]
+        }
+      ],
+      "submission": {
+        "text": "交给班主任",
+        "evidence": [
+          {
+            "source_id": "C04-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "交给班主任"
+          }
+        ]
+      },
+      "changes": [],
+      "questions": [
+        "请确认原消息发送日期或明确截止年月日；不能用本次整理日期代替截图的日期。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": [
+    "仅收到截图转写，未收到原图；原时间被裁掉，无法检查截图日期和转写准确性。"
+  ]
+}

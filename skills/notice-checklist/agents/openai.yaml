@@ -1,0 +1,4 @@
+interface:
+  display_name: "通知核对助手"
+  short_description: "核对通知中的待办、改期、取消与缺失信息，每个关键要求都能回查出处"
+  default_prompt: "使用 $notice-checklist 整理这些通知，列出当前有效的待办、变更、出处和待确认项。"

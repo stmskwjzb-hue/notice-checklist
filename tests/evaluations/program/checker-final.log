@@ -1,0 +1,31 @@
+test_accepts_a_cited_partial_amendment (test_check_result.CheckerTests.test_accepts_a_cited_partial_amendment) ... ok
+test_accepts_a_date_without_inventing_a_clock_time (test_check_result.CheckerTests.test_accepts_a_date_without_inventing_a_clock_time) ... ok
+test_boolean_is_not_a_schema_version (test_check_result.CheckerTests.test_boolean_is_not_a_schema_version) ... ok
+test_cancelled_tasks_require_a_cited_change (test_check_result.CheckerTests.test_cancelled_tasks_require_a_cited_change) ... ok
+test_malformed_containers_produce_diagnostics_not_tracebacks (test_check_result.CheckerTests.test_malformed_containers_produce_diagnostics_not_tracebacks) ... ok
+test_missing_fields_and_misspellings_are_not_silently_dropped (test_check_result.CheckerTests.test_missing_fields_and_misspellings_are_not_silently_dropped) ... ok
+test_no_action_notice_can_have_an_empty_checklist (test_check_result.CheckerTests.test_no_action_notice_can_have_an_empty_checklist) ... ok
+test_rejects_a_missing_evidence_location (test_check_result.CheckerTests.test_rejects_a_missing_evidence_location) ... ok
+test_rejects_a_quote_missing_from_its_source (test_check_result.CheckerTests.test_rejects_a_quote_missing_from_its_source) ... ok
+test_rejects_a_timestamp_without_timezone (test_check_result.CheckerTests.test_rejects_a_timestamp_without_timezone) ... ok
+test_rejects_duplicate_source_ids (test_check_result.CheckerTests.test_rejects_duplicate_source_ids) ... ok
+test_rejects_duplicate_task_ids (test_check_result.CheckerTests.test_rejects_duplicate_task_ids) ... ok
+test_rejects_facts_with_no_evidence (test_check_result.CheckerTests.test_rejects_facts_with_no_evidence) ... ok
+test_rejects_impossible_dates (test_check_result.CheckerTests.test_rejects_impossible_dates) ... ok
+test_rejects_unknown_source_id (test_check_result.CheckerTests.test_rejects_unknown_source_id) ... ok
+test_renderer_escapes_source_html_and_markdown (test_check_result.CheckerTests.test_renderer_escapes_source_html_and_markdown) ... ok
+test_renderer_keeps_cancelled_tasks_out_of_active_section (test_check_result.CheckerTests.test_renderer_keeps_cancelled_tasks_out_of_active_section) ... ok
+test_renderer_preserves_literal_tildes_in_active_facts_and_quotes (test_check_result.CheckerTests.test_renderer_preserves_literal_tildes_in_active_facts_and_quotes) ... ok
+test_renderer_refuses_invalid_results (test_check_result.CheckerTests.test_renderer_refuses_invalid_results) ... ok
+test_unknown_status_is_rejected (test_check_result.CheckerTests.test_unknown_status_is_rejected) ... ok
+test_unreadable_source_requires_a_top_level_question (test_check_result.CheckerTests.test_unreadable_source_requires_a_top_level_question) ... ok
+test_unresolved_deadline_requires_visible_confirmation (test_check_result.CheckerTests.test_unresolved_deadline_requires_visible_confirmation) ... ok
+test_cli_emits_a_checked_report_and_honest_scope (test_check_result.CliTests.test_cli_emits_a_checked_report_and_honest_scope) ... ok
+test_cli_invalid_result_does_not_write_a_checklist (test_check_result.CliTests.test_cli_invalid_result_does_not_write_a_checklist) ... ok
+test_cli_preserves_an_existing_output (test_check_result.CliTests.test_cli_preserves_an_existing_output) ... ok
+test_cli_reports_malformed_json_without_a_traceback (test_check_result.CliTests.test_cli_reports_malformed_json_without_a_traceback) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.278s
+
+OK

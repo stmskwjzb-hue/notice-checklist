@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C10-T1",
+      "action": {
+        "text": "季度复盘会安排待确认；两份文件地点均为会议室A",
+        "evidence": [
+          {
+            "source_id": "C10-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "季度复盘会：2026年11月6日10:00，会议室A。"
+          },
+          {
+            "source_id": "C10-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "季度复盘会：2026年11月7日10:00，会议室A。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": null,
+      "materials": [],
+      "prerequisites": [],
+      "submission": null,
+      "changes": [],
+      "questions": [
+        "活动时间冲突：C10-S1为2026年11月6日10:00，C10-S2为2026年11月7日10:00。请运营协调组确认哪份生效；文件名和上传顺序不能确定效力。",
+        "以上均为活动时间，不是提交截止；钟点时区也未注明。"
+      ]
+    }
+  ],
+  "questions": []
+}

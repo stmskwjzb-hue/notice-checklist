@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "questions": [],
+  "tasks": [
+    {
+      "id": "T1",
+      "action": {
+        "text": "提交报名材料",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "location": "第1行",
+            "quote": "提交报名表和照片"
+          }
+        ]
+      },
+      "status": "active",
+      "deadline": {
+        "text": "2026年11月2日12:00",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "location": "第1行",
+            "quote": "2026年11月2日12:00"
+          },
+          {
+            "source_id": "S3",
+            "location": "用户说明",
+            "quote": "北京时间 UTC+08:00"
+          }
+        ],
+        "iso": "2026-11-02T12:00:00+08:00"
+      },
+      "materials": [
+        {
+          "text": "报名表和照片",
+          "evidence": [
+            {
+              "source_id": "S1",
+              "location": "第1行",
+              "quote": "报名表和照片"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "上传PDF",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "location": "第1行",
+            "quote": "上传PDF"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "text": "截止和提交方式调整；原材料要求保留",
+          "evidence": [
+            {
+              "source_id": "S2",
+              "location": "第1行",
+              "quote": "报名材料截止改为2026年11月2日12:00，提交方式改为上传PDF。"
+            },
+            {
+              "source_id": "S1",
+              "location": "第1行",
+              "quote": "报名表和照片"
+            }
+          ]
+        }
+      ],
+      "questions": []
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "C07-T1",
+      "action": {
+        "text": "用户（2026级研究生）：提交安全承诺书",
+        "evidence": [
+          {
+            "source_id": "C07-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026级本科生及研究生均须在2026年11月3日17:00前提交安全承诺书到各自辅导员处。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "研究生仍为2026年11月3日17:00前；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C07-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026年11月3日17:00前"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "安全承诺书",
+          "evidence": [
+            {
+              "source_id": "C07-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "安全承诺书"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "submission": {
+        "text": "交到本人辅导员处",
+        "evidence": [
+          {
+            "source_id": "C07-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "到各自辅导员处"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "text": "本科生延期不适用于研究生",
+          "evidence": [
+            {
+              "source_id": "C07-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "仅2026级本科生截止时间延至2026年11月5日17:00，研究生安排不变。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    },
+    {
+      "id": "C07-T2",
+      "action": {
+        "text": "室友若为2026级本科生：提交安全承诺书",
+        "evidence": [
+          {
+            "source_id": "C07-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "2026级本科生及研究生均须在2026年11月3日17:00前提交安全承诺书到各自辅导员处。"
+          }
+        ]
+      },
+      "status": "needs_confirmation",
+      "deadline": {
+        "text": "仅2026级本科生延至2026年11月5日17:00；时区未注明",
+        "evidence": [
+          {
+            "source_id": "C07-S2",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "仅2026级本科生截止时间延至2026年11月5日17:00"
+          }
+        ],
+        "iso": null
+      },
+      "materials": [
+        {
+          "text": "安全承诺书",
+          "evidence": [
+            {
+              "source_id": "C07-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "安全承诺书"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        {
+          "text": "该延期仅适用于2026级本科生",
+          "evidence": [
+            {
+              "source_id": "C07-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "仅2026级本科生"
+            }
+          ]
+        }
+      ],
+      "submission": {
+        "text": "交到室友本人辅导员处",
+        "evidence": [
+          {
+            "source_id": "C07-S1",
+            "location": "用户提供文本（唯一段落）",
+            "quote": "到各自辅导员处"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "text": "2026级本科生截止由11月3日17:00延至11月5日17:00；材料、接收人保留",
+          "evidence": [
+            {
+              "source_id": "C07-S1",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "2026年11月3日17:00前提交安全承诺书到各自辅导员处。"
+            },
+            {
+              "source_id": "C07-S2",
+              "location": "用户提供文本（唯一段落）",
+              "quote": "仅2026级本科生截止时间延至2026年11月5日17:00"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "请确认室友是否为2026级本科生；通知未给出其他年级本科生的安排。",
+        "通知未注明时区；所列钟点应按哪个时区理解？确认前不生成带偏移的标准时间。"
+      ]
+    }
+  ],
+  "questions": []
+}
